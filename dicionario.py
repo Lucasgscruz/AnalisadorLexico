@@ -14,11 +14,18 @@ tabela = [
     ['PlvReservada', "continue"],
     ['PlvReservada', "print"],
     ['PlvReservada', "break"],
-    ['identificadores', r'sdfnfvfvjxvxcvcvxcvxcvj'],
-    ['numeros', r'[0-9]'],
-    ['opLogicos', "jjjj"],
-    ['opAritmeticos', "kkkkk"],
-
+    #['identificador', r'^[a-zA-z0-9_]+$'],
+    ['numero', r'^[-0-9.]+$'],
+    ['opLogico', "&&"],
+    #['opLogico', "||"],
+    ['opLogico', "<"],
+    ['opLogico', ">"],
+    ['opLogico', "<="],
+    ['opLogico', ">="],
+    ['opLogico', "="],
+    ['opLogico', "=="],
+    ['opLogico', "!="],
+    ['opAritmetico','"'],
 ]
 
 

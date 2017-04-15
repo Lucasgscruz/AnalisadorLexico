@@ -1,7 +1,7 @@
-a = ['lucas,ffsf,asda', 'fdsf,sfdsdf.sfsfsd=sdfsf', 'sfsdf=sfsf']
-cont = 0
-for i in a :
-    a[cont] = i.split(',')
-    cont+=1
+import re
 
-print a
+a = 'return'
+#print re.search(r'^[a-zA-z0-9_]+$',a)
+#print re.search(r'^[-0-9.]+$',a)
+
+print re.search('||',a)
