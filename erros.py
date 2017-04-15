@@ -1,6 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
+
 __dicErros__ = {
     00: "[Erro]: Arquivo contendo o código fonte não foi passado!",
     01: "[Erro]: O arquivo passado possui extensão incompatível.",

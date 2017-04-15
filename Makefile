@@ -1,2 +1,2 @@
 compilar:
-	python lexico.py lucas.d
+	python lexico.py lucas.c
