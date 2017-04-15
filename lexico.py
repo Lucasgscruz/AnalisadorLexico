@@ -22,7 +22,7 @@ def construirTabela(source):
         for j in xrange(0, len(i)):
             coluna += 1
             tokenAux += i[j]
-        
+
             if(tokenAux == '//'):    # verifica se a linha é um comentario
                 coluna = 0
                 tokenAux = ""
