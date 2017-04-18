@@ -123,27 +123,27 @@ def makeTable(tokens):
 
         if (i[0] in reservadas):
             writeTable(['[RESERVADA]', i[1], i[2]])
-            print 'reservada'
+            #print 'reservada'
             # break
         elif(i[0] in aritmeticos):
             writeTable(['[ARITM]', i[1], i[2]])
-            print 'arit'
+            #print 'arit'
             # break
         elif (i[0] in delimitadores):
             writeTable(['[DELIMITADOR]', i[1], i[2]])
-            print 'deli'
+            #print 'deli'
             # break
         elif(i[0] in logicos):
             writeTable(['[LOGICO]', i[1], i[2]])
-            print 'logicos'
+            #print 'logicos'
             # br
         elif (re.match(r'^[-0-9.]+$', i[0])):
             writeTable(['[NUM]', i[1], i[2]])
-            print 'num'
+            #print 'num'
             # break
         elif (re.match(r'^[a-zA-z0-9_]+$', i[0])):
             writeTable(['[IDENTIFICADOR]', i[1], i[2]])
-            print 'id'
+            #print 'id'
             # break
 
 

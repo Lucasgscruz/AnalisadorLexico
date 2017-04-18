@@ -1,2 +1,2 @@
 compilar:
-	python lexico.py lucas.c
+	python ./src/lexico.py ./entrada/helloWorld.c
