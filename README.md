@@ -10,8 +10,11 @@ e executar o seguinte comando:
 Exemplo:
 Para fazer a análise léxica do arquivo "helloWorld.c", o seguinte
 comando deverá ser digitado:
+
 	python ./src/lexico.py ./entrada/helloWorld.c
+
 ou apenas o comando:
+
 	make
 
 Saída:
