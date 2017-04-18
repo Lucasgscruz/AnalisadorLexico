@@ -3,6 +3,8 @@
 import os
 
 if __name__ != '__main__':
+    saida = open("tabela.txt",'w')
+
     def checarExtensao(source):
         """Função que verifica a extensão do arquivo passado com o código fonte."""
 
@@ -17,5 +19,7 @@ if __name__ != '__main__':
         arq = open(source, 'r')
         return arq.read()
 
-    def writeTable():
-        pass
+    def writeTable(simbolo):
+        """Função que armazena os símbolos no arquivo de saida, saída
+         de símbolos."""
+        saida.write(str(simbolo) + '\n')

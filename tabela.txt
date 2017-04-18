@@ -1,0 +1,6 @@
+['[RESERVADA]', 1, 3]
+['[IDENTIFICADOR]', 1, 5]
+['[LOGICO]', 1, 7]
+['[ARITM]', 1, 9]
+['[NUM]', 1, 11]
+['[DELIMITADOR]', 1, 13]

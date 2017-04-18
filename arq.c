@@ -1,2 +1,1 @@
-int 9dfdf;
-int lucas
+int a = -10 ;

@@ -8,7 +8,7 @@ if __name__ != '__main__':
     logicos = ['>', '<', '!', '&', '=', '|']
     uniaoLogicos = ['>=', '<=', '==', '&&', '||', '!=']
     reservadas = ['if', 'else', 'break', 'while',
-                  'print', 'char', 'int', 'float', 'return']
+                  'print', 'char', 'int', 'float','for', 'return']
 
         # tabela = [
         #     ['PlvReservada', "if"],
