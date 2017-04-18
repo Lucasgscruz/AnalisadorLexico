@@ -1,13 +1,13 @@
-int 1;//comentario
-float 0;
-int Lucas3s_ 0;
+int a; /*        ;
+comentario */
+float     b= 2.30; //dfsdfsdfsdgd
+int 2ks=10;
 
 
-print("");
-if(){
+print   ("");
+if(a>= b && a < b){
 
 }
 
 
-returnar 0;
-
+return  0;

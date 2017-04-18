@@ -31,11 +31,11 @@ def construirTabela(source):
                 tokenAux = ""
                 break
 
-            for valor in tabela:     #Percorre a tabela de simbolos
+            for valor in tabela:  # Percorre a tabela de simbolos
 
                 if(len(tokenAux) > 0):  # remover espaços no inicio da string tokenAux
-                    if (tokenAux[0]== ' '):
-                        tokenAux = tokenAux.replace(" ","")
+                    if (tokenAux[0] == ' '):
+                        tokenAux = tokenAux.replace(" ", "")
 
                 if(tokenAux == "(" or   # verificação de simbolos atomicos
                    tokenAux == ")" or
@@ -46,21 +46,22 @@ def construirTabela(source):
                    tokenAux == ";" or
                    tokenAux == "," or
                    tokenAux == "'" or
-                   tokenAux == '"' ):
-                   tokens.append(tokenAux)
-                   tokenAux = ""
+                   tokenAux == '"'):
+                    tokens.append(tokenAux)
+                    tokenAux = ""
 
-                if(re.match(valor[1], tokenAux)): # verificação da expresssao regular
+                if(re.match(valor[1], tokenAux)):  # verificação da expresssao regular
                     contFind += 1
                     print contFind
                     print valor[1]
 
-            if(contFind == 1 ): # Caso tenha casado com apenas um tipo de token, a string é adicionada na lista
+            if(contFind == 1):  # Caso tenha casado com apenas um tipo de token, a string é adicionada na lista
                 tokens.append(tokenAux)
                 tokenAux = ""
             contFind = 0
 
     print tokens
+
 
 def main():
     try:

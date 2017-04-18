@@ -1,7 +1,2 @@
-luca(s   
-
-if()  
-while  
-
-
-
+int 9dfdf;
+int lucas
